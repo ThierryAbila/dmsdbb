@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>admin login</title>
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+        
+        li {
+            float: left;
+        }
+        
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        
+        li a:hover {
+            background-color: #111;
+        }
+        /* login design */
+        
+        input[type=text],
+        select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        
+        input[type=email],
+        select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        
+        input[type=submit] {
+            width: 100%;
+            background-color: #696a69;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            text-align: center;
+        }
+        
+        input[type=password],
+        select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        
+        input[type=submit]:hover {
+            background-color: #a0a3a0;
+        }
+        
+        .body {
+            border-radius: 5px;
+            background-color: #080808;
+            padding: 20px;
+            margin-left: 500px;
+            margin-right: 500px;
+            margin-top: 100px;
+            margin-bottom: 200px;
+            border-radius: 7px;
+        }
+        
+        .link {
+            text-decoration: none;
+            color: #111;
+        }
+        
+        .link:hover {
+            color: rgb(139, 142, 142);
+        }
+        /* for footer */
+        
+        .footer {
+            background-color: black;
+            color: #ffffff;
+            text-align: center;
+            font-size: 12px;
+            padding: 15px;
+            margin-top: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li><a class="active" href="index.php">Directory Management System</a></li>
+        <li style="float:right"><a href="login.html">Admin Login</a></li>
+    </ul>
+    <!-- login design -->
+    <div class="body">
+        <form action="https://www.w3schools.com/action_page.php">
+            <input type="text" id="fname" name="Admin Name" placeholder="Admin Name">
+            <input type="email" id="lname" name="Company Email" placeholder="Company Email">
+            <input type="submit" value="forgot">
+        </form>
+    </div>
+
+    <!-- footer -->
+    <div class="footer ">
+        <p>Resize the browser window to see how the content respond to the resizing.</p>
+    </div>
+
+</body>
+
+</html>
